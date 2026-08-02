@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Tests / caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment & secrets
+.env
+.env.*
+secrets.json
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ML models, data, and caches
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+models/
+model/
+checkpoints/
+data/
+datasets/
+runs/
+mlruns/
+.cache/huggingface/
+huggingface_hub/
+
+# Temp files
+*~
+*.swp
